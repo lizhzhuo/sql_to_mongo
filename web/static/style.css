@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    margin-top: 40px;
+    height: 50px;
+    width: auto;
+    border-top: 0.5px solid #9D9D9D;
+    border-bottom: 0.5px solid #9D9D9D;
+    background-color:#F2E6E6;
+    color: #7B7B7B;
+}
+
+#logo{
+    margin-left:40px;
+}
+.select_bar select{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+    width:150px;
+    height:30px;
+    outline: none;
+    font-family: "宋体";
+    color: #7B7B7B;
+    font-size: 18px;
+}
+.transform_bar{
+    clear:both;
+    padding: 30px 40px 0 40px;
+}
+textarea{
+    resize: none;
+}
+
+#sql_side{
+    height: 230px;
+    width: 45%;
+    float:left;
+    font-weight: bold;
+}
+#mongo_side{
+    height: 230px;
+    width: 45%;
+    float: left;
+    font-weight: bold;
+}
+#input_sql{
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    height: 230px;
+    width: 100%;
+}
+#input_sql textarea{
+    height: 200px;
+    width: 100%;
+}
+#transform_button{
+    width: 10%;
+    height: 230px;
+    float: left;
+    text-align: center;
+}
+#transform_btn{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+    font-family: "楷体";
+    border-radius: 4px;
+}
+#show_mongo{
+    position: relative;
+    float: right;
+    height: 230px;
+    width: 100%;
+}
+#show_mongo textarea{
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+.error_bar{
+    text-align: center;
+    clear: both;
+    padding: 20px 40px 0 40px;
+}
+#error_area{    
+    height: 100px;
+    width: 100%;
+    position: relative;
+}

@@ -1,0 +1,6 @@
+select emp_no,dept_no 
+from dept_manager 
+order by dept_no;
+select a,b
+from test 
+order by a desc;

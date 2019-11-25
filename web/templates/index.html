@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}"/>
+        <script type="text/javascript" src="{{url_for('static',filename='script.js')}}"></script>
+        <title>SqlToMongo</title>
+    </head>
+    <body>
+    	<div id="header">
+    		<header>
+            <h1 id="logo"><strong>SqlToMongo</strong></h1>
+        </header>
+    	</div>
+        <section class="content">
+            <div class="select_bar">
+                <select id="select_view">
+                    <option value="1">Direct input</option>
+                    <option value="2">Select file</option>
+                </select>
+            </div>
+            <div class="transform_bar">
+                <div id="sql_side">
+                    <a>Sql</a>
+                    <div id="input_sql">
+                        <textarea name="input_sql"></textarea>
+                    </div>
+                    <div id="upload_file" hidden>
+                        <input id="select_file_btn" type="file" name="select_file" >
+                        <p id="file_name"></p>
+                    </div>
+                </div>      
+                <div id="transform_button">         
+                	<button id="transform_btn" type="submit" name="transform">Convert</button>     
+                </div>
+                <div id="mongo_side">
+                    <a>Mongo</a>
+                    <div id="show_mongo">
+                        <textarea name="show_mongo" disabled></textarea>
+                    </div>
+                    <div id="down_file" hidden>
+                        <a id="down_file_btn" type="file" name="down_file" hidden>下载文件</a>
+                    </div>
+                </div>
+            </div>
+            <div class="error_bar">
+                <textarea id="error_area" name="error_area" disabled></textarea>
+            </div>
+        </section>
+        <footer class="footer"></footer>
+    </body>
+</html>
