@@ -1,12 +1,11 @@
-# SqlToMongo
-## 依赖安装
+## sql_to_mongo
+### 依赖安装
     pip install flask
     pip install sqlparse
-## 转换函数
+### 转换函数
     file SqlMongo.py
               |funtion sql_to_mongo()
 
-## 在线服务
 ### 设置环境变量
 #### WINDOWS
     SET FLASK_APP=web
