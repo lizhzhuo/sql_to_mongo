@@ -1,15 +1,15 @@
-## 说明
-### 依赖安装
+## Description
+### Installation
     pip install flask
     pip install sqlparse
-### 转换函数
+### Conversion Function
     file SqlMongo.py
               |funtion sql_to_mongo()
 
-### 设置环境变量
+### Environment Variables
 #### WINDOWS
     SET FLASK_APP=web
 #### Linux
     export FLASK_APP=web
-### 运行
+### Run
     flask run -h ip -p port
